@@ -56,7 +56,9 @@ namespace SMProofOfConcept
             if (radioButton8.Checked)
             {
                 count = 0;
+                numericUpDown1.Value = Convert.ToDecimal(ratingList[count].rating);
             }
+            
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
@@ -65,7 +67,9 @@ namespace SMProofOfConcept
             if (radioButton7.Checked)
             {
                 count = 1;
+                numericUpDown1.Value = Convert.ToDecimal(ratingList[count].rating);
             }
+            
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
@@ -74,7 +78,9 @@ namespace SMProofOfConcept
             if (radioButton6.Checked)
             {
                 count = 2;
+                numericUpDown1.Value = Convert.ToDecimal(ratingList[count].rating);
             }
+           
         }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
@@ -83,7 +89,9 @@ namespace SMProofOfConcept
             if (radioButton5.Checked)
             {
                 count = 3;
+                numericUpDown1.Value = Convert.ToDecimal(ratingList[count].rating);
             }
+            
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
@@ -92,7 +100,9 @@ namespace SMProofOfConcept
             if (radioButton4.Checked)
             {
                 count = 4;
+                numericUpDown1.Value = Convert.ToDecimal(ratingList[count].rating);
             }
+            
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)

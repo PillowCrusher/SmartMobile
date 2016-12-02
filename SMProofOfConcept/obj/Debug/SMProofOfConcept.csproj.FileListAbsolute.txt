@@ -17,3 +17,6 @@ C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfC
 C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.Properties.Resources.resources
 C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.csproj.GenerateResource.Cache
 C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.Form1.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.Form1.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.xml

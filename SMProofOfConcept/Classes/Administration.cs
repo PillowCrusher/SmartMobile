@@ -3,19 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SMProofOfConcept.Classes;
 
 namespace SMProofOfConcept
 {
     public class Administration
     {
-
         private string naam;
+        private RatingLogic ratingLogic;
+        private DatabaseConnection dbCon;
+        public Administration()
+        {
+            ratingLogic = new RatingLogic();
+            dbCon = new DatabaseConnection();
+        }
 
         public string getAvarage()
         {
-            return null;
-            // TODO - implement Administration.getAvarage
-
+            return ratingLogic.getAverage().ToString();
         }
 
         /**
@@ -24,8 +29,7 @@ namespace SMProofOfConcept
          */
         public string getRatingCategory(CategoryType category)
         {
-            // TODO - implement Administration.getRatingCategory
-            return null;
+          return ratingLogic.getRating(category).ToString();        
         }
 
         /**
@@ -34,8 +38,7 @@ namespace SMProofOfConcept
          */
         public void getRatingsDatabase(string naam)
         {
-            // TODO - implement Administration.getRatingsDatabase
-            
+            ratingLogic.refreshRatingsList(dbCon.sendQuery("SELECT * FROM SMRatings WHERE Name = '" + naam + "'"));
         }
 
         private void sendRatingsDatabase()

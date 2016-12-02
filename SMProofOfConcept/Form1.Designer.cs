@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.tb_Name = new System.Windows.Forms.TextBox();
-            this.btn_GetRating = new System.Windows.Forms.Button();
             this.lb_Average = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,36 +46,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 17);
+            this.label1.Location = new System.Drawing.Point(20, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
             // tb_Name
             // 
-            this.tb_Name.Location = new System.Drawing.Point(56, 14);
+            this.tb_Name.Location = new System.Drawing.Point(75, 17);
+            this.tb_Name.Margin = new System.Windows.Forms.Padding(4);
             this.tb_Name.Name = "tb_Name";
-            this.tb_Name.Size = new System.Drawing.Size(100, 20);
+            this.tb_Name.Size = new System.Drawing.Size(132, 22);
             this.tb_Name.TabIndex = 1;
-            // 
-            // btn_GetRating
-            // 
-            this.btn_GetRating.Location = new System.Drawing.Point(162, 12);
-            this.btn_GetRating.Name = "btn_GetRating";
-            this.btn_GetRating.Size = new System.Drawing.Size(112, 23);
-            this.btn_GetRating.TabIndex = 2;
-            this.btn_GetRating.Text = "Get rating";
-            this.btn_GetRating.UseVisualStyleBackColor = true;
-            this.btn_GetRating.Click += new System.EventHandler(this.btn_GetRating_Click);
+            this.tb_Name.TextChanged += new System.EventHandler(this.tb_Name_TextChanged);
             // 
             // lb_Average
             // 
             this.lb_Average.AutoSize = true;
             this.lb_Average.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Average.Location = new System.Drawing.Point(83, 58);
+            this.lb_Average.Location = new System.Drawing.Point(111, 71);
+            this.lb_Average.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Average.Name = "lb_Average";
-            this.lb_Average.Size = new System.Drawing.Size(126, 76);
+            this.lb_Average.Size = new System.Drawing.Size(157, 95);
             this.lb_Average.TabIndex = 3;
             this.lb_Average.Text = "8.0";
             this.lb_Average.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -85,9 +78,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(15, 150);
+            this.label2.Location = new System.Drawing.Point(20, 185);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 31);
+            this.label2.Size = new System.Drawing.Size(91, 39);
             this.label2.TabIndex = 4;
             this.label2.Text = "Inzet";
             // 
@@ -95,9 +89,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(15, 195);
+            this.label3.Location = new System.Drawing.Point(20, 240);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 31);
+            this.label3.Size = new System.Drawing.Size(243, 39);
             this.label3.TabIndex = 5;
             this.label3.Text = "Samenwerking";
             // 
@@ -105,9 +100,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(15, 240);
+            this.label4.Location = new System.Drawing.Point(20, 295);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(193, 31);
+            this.label4.Size = new System.Drawing.Size(243, 39);
             this.label4.TabIndex = 6;
             this.label4.Text = "Programmeren";
             // 
@@ -115,9 +111,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(15, 285);
+            this.label5.Location = new System.Drawing.Point(20, 351);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(152, 31);
+            this.label5.Size = new System.Drawing.Size(190, 39);
             this.label5.TabIndex = 7;
             this.label5.Text = "Concepting";
             // 
@@ -125,9 +122,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(15, 330);
+            this.label6.Location = new System.Drawing.Point(20, 406);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 31);
+            this.label6.Size = new System.Drawing.Size(183, 39);
             this.label6.TabIndex = 8;
             this.label6.Text = "Onderzoek";
             // 
@@ -135,9 +133,10 @@
             // 
             this.lb_Inzet.AutoSize = true;
             this.lb_Inzet.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Inzet.Location = new System.Drawing.Point(241, 150);
+            this.lb_Inzet.Location = new System.Drawing.Point(321, 185);
+            this.lb_Inzet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Inzet.Name = "lb_Inzet";
-            this.lb_Inzet.Size = new System.Drawing.Size(29, 31);
+            this.lb_Inzet.Size = new System.Drawing.Size(36, 39);
             this.lb_Inzet.TabIndex = 9;
             this.lb_Inzet.Text = "1";
             // 
@@ -145,9 +144,10 @@
             // 
             this.lb_Samenwerking.AutoSize = true;
             this.lb_Samenwerking.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Samenwerking.Location = new System.Drawing.Point(241, 195);
+            this.lb_Samenwerking.Location = new System.Drawing.Point(321, 240);
+            this.lb_Samenwerking.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Samenwerking.Name = "lb_Samenwerking";
-            this.lb_Samenwerking.Size = new System.Drawing.Size(29, 31);
+            this.lb_Samenwerking.Size = new System.Drawing.Size(36, 39);
             this.lb_Samenwerking.TabIndex = 10;
             this.lb_Samenwerking.Text = "1";
             // 
@@ -155,9 +155,10 @@
             // 
             this.lb_Programmeren.AutoSize = true;
             this.lb_Programmeren.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Programmeren.Location = new System.Drawing.Point(241, 240);
+            this.lb_Programmeren.Location = new System.Drawing.Point(321, 295);
+            this.lb_Programmeren.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Programmeren.Name = "lb_Programmeren";
-            this.lb_Programmeren.Size = new System.Drawing.Size(29, 31);
+            this.lb_Programmeren.Size = new System.Drawing.Size(36, 39);
             this.lb_Programmeren.TabIndex = 11;
             this.lb_Programmeren.Text = "1";
             // 
@@ -165,9 +166,10 @@
             // 
             this.lb_Concepting.AutoSize = true;
             this.lb_Concepting.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Concepting.Location = new System.Drawing.Point(241, 285);
+            this.lb_Concepting.Location = new System.Drawing.Point(321, 351);
+            this.lb_Concepting.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Concepting.Name = "lb_Concepting";
-            this.lb_Concepting.Size = new System.Drawing.Size(29, 31);
+            this.lb_Concepting.Size = new System.Drawing.Size(36, 39);
             this.lb_Concepting.TabIndex = 12;
             this.lb_Concepting.Text = "1";
             // 
@@ -175,17 +177,18 @@
             // 
             this.lb_Onderzoek.AutoSize = true;
             this.lb_Onderzoek.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Onderzoek.Location = new System.Drawing.Point(241, 330);
+            this.lb_Onderzoek.Location = new System.Drawing.Point(321, 406);
+            this.lb_Onderzoek.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lb_Onderzoek.Name = "lb_Onderzoek";
-            this.lb_Onderzoek.Size = new System.Drawing.Size(29, 31);
+            this.lb_Onderzoek.Size = new System.Drawing.Size(36, 39);
             this.lb_Onderzoek.TabIndex = 13;
             this.lb_Onderzoek.Text = "1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(286, 401);
+            this.ClientSize = new System.Drawing.Size(381, 494);
             this.Controls.Add(this.lb_Onderzoek);
             this.Controls.Add(this.lb_Concepting);
             this.Controls.Add(this.lb_Programmeren);
@@ -197,9 +200,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lb_Average);
-            this.Controls.Add(this.btn_GetRating);
             this.Controls.Add(this.tb_Name);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -211,7 +214,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tb_Name;
-        private System.Windows.Forms.Button btn_GetRating;
         private System.Windows.Forms.Label lb_Average;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

@@ -23,28 +23,37 @@ namespace SMProofOfConcept
             return ratingLogic.getAverage().ToString("0.0");
         }
 
-        /**
-         * 
-         * @param category
-         */
         public string getRatingCategory(CategoryType category)
         {
             return ratingLogic.getRating(category).ToString("0.0");        
         }
 
-        /**
-         * 
-         * @param naam
-         */
         public void getRatingsDatabase(string naam)
         {
             ratingLogic.refreshRatingsList(dbCon.sendQuery("SELECT * FROM SMRatings WHERE Name = '" + naam + "'"));
         }
 
-        private void sendRatingsDatabase()
+        public void sendRatingsDatabase(List<Rating> ratings, string naam)
         {
-            // TODO - implement Administration.sendRatingsDatabase
-            
+            int countdown = ratings.Count;
+            //INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')
+            string query = "INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (";
+            foreach (Rating rating in ratings)
+            {
+                countdown--;
+                if (countdown == 0)
+                {
+                    query += "NULL, '" + naam + "', '" + rating.rating + "', '" + rating.category + "', '" +
+                        DateTime.Now + "')";
+                }
+                else
+                {
+                    query += "NULL, '" + naam + "', '" + rating.rating+ "', '" + rating.category + "', '" +
+                        DateTime.Now + "'), (";
+                }
+               
+            }
+            dbCon.sendQuery(query);
         }
 
     }

@@ -18,7 +18,6 @@ namespace SMProofOfConcept
         {
             InitializeComponent();
            administration = new Administration();
-            //DatabaseConnection dbCon = new DatabaseConnection();
             //List<Rating> res = dbCon.sendQuery("INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')");
             //"INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')"
         }
@@ -37,8 +36,8 @@ namespace SMProofOfConcept
 
         private void btn_AddFeedback_Click(object sender, EventArgs e)
         {
-            AddFeedbackForm afForm = new AddFeedbackForm();
-            afForm.Show();
+            AddFeedbackForm afForm = new AddFeedbackForm(administration);
+            afForm.ShowDialog();
         }
     }
 }

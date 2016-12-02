@@ -13,11 +13,6 @@ namespace SMProofOfConcept.Classes
         public double rating { get; set; }
         public DateTime moment { get; set; }
 
-        /**
-         * 
-         * @param category
-         * @param rating
-         */
         public Rating(CategoryType category, double rating)
         {
             this.category = category;

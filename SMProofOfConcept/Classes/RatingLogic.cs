@@ -9,10 +9,7 @@ namespace SMProofOfConcept.Classes
 {
     class RatingLogic
     {
-        /**
-	 * 
-	 * @param category
-	 */
+    
         private List<Rating> ratingList;
 
         public RatingLogic()

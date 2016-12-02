@@ -21,3 +21,4 @@ C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Deb
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.AddFeedbackForm.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.AddFeedbackForm.resources

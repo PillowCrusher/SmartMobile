@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SMProofOfConcept.Classes;
 
 namespace SMProofOfConcept
 {
@@ -15,6 +16,8 @@ namespace SMProofOfConcept
         public Form1()
         {
             InitializeComponent();
+            DatabaseConnection dbCon = new DatabaseConnection();
+            dbCon.sendQuery("");
         }
     }
 }

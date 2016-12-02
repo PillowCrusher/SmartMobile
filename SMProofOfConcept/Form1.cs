@@ -27,7 +27,7 @@ namespace SMProofOfConcept
         private void tb_Name_TextChanged(object sender, EventArgs e)
         {
             administration.getRatingsDatabase(tb_Name.Text);
-            lb_Inzet.Text = administration.getRatingCategory(CategoryType.Concepting);
+            lb_Inzet.Text = administration.getRatingCategory(CategoryType.Inzet);
             lb_Concepting.Text = administration.getRatingCategory(CategoryType.Concepting);
             lb_Onderzoek.Text = administration.getRatingCategory(CategoryType.Onderzoek);
             lb_Programmeren.Text = administration.getRatingCategory(CategoryType.ProgrammingSkills);

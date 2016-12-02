@@ -49,8 +49,8 @@ namespace SMProofOfConcept.Classes
          */
         private string convertJson(string Json)
         {
-          List<Rating> result = JsonConvert.DeserializeObject<Rating[]>(Json);
-            
+          //List<Rating> result = JsonConvert.DeserializeObject<Rating[]>(Json);
+            return null;
         }
 
     }

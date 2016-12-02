@@ -9,9 +9,9 @@ namespace SMProofOfConcept.Classes
     public class Rating
     {
 
-        public CategoryType category { get; }
-        private double rating { get; }
-        private DateTime moment { get; }
+        public CategoryType category { get; set; }
+        public double rating { get; set; }
+        public DateTime moment { get; set; }
 
         /**
          * 
@@ -31,6 +31,7 @@ namespace SMProofOfConcept.Classes
             this.rating = rating;
             this.moment = moment;
         }
+
 
 
             

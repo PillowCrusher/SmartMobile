@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Net;
+using Newtonsoft.Json;
 
 namespace SMProofOfConcept.Classes
 {
@@ -14,17 +17,10 @@ namespace SMProofOfConcept.Classes
 	 */
         private string queryBuilder(string var)
         {
-            return null;
-            // TODO - implement DatabaseConnection.queryBuilder
-
+            //http://i291343.iris.fhict.nl/database.php?query=SELECT*FROM%20SMRatings
+            return var.Replace(" ", "%20");
         }
 
-        public void openConnection()
-        {
-
-            // TODO - implement DatabaseConnection.openConnection
-          
-        }
 
         /**
          * 
@@ -32,9 +28,19 @@ namespace SMProofOfConcept.Classes
          */
         public string sendQuery(string query)
         {
-            return null;
-            // TODO - implement DatabaseConnection.sendQuery
-
+            string jsonString = "";
+            try
+            {
+                using (WebClient wc = new WebClient())
+                {
+                    jsonString = wc.DownloadString(query);
+                }
+            }
+            catch(Exception e)
+            {
+                
+            }
+            return jsonString;
         }
 
         /**
@@ -43,8 +49,8 @@ namespace SMProofOfConcept.Classes
          */
         private string convertJson(string Json)
         {
-            return null;
-            // TODO - implement DatabaseConnection.convertJson
+          List<Rating> result = JsonConvert.DeserializeObject<Rating[]>(Json);
+            
         }
 
     }

@@ -6,3 +6,13 @@ C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Deb
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.pdb
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.exe
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.pdb
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.exe.config
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.exe
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.pdb
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.exe
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.pdb
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.Properties.Resources.resources
+C:\Users\Mark\Documents\GitHub\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.csproj.GenerateResource.Cache

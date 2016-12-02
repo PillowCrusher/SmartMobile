@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SMProofOfConcept.Classes;
 
 namespace SMProofOfConcept
 {
@@ -15,6 +16,9 @@ namespace SMProofOfConcept
         public Form1()
         {
             InitializeComponent();
+            DatabaseConnection dbCon = new DatabaseConnection();
+            //List<Rating> res = dbCon.sendQuery("INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')");
+            //"INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')"
         }
     }
 }

@@ -42,7 +42,6 @@
             this.lb_Concepting = new System.Windows.Forms.Label();
             this.lb_Onderzoek = new System.Windows.Forms.Label();
             this.btn_AddFeedback = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -198,22 +197,11 @@
             this.btn_AddFeedback.UseVisualStyleBackColor = true;
             this.btn_AddFeedback.Click += new System.EventHandler(this.btn_AddFeedback_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(248, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 532);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_AddFeedback);
             this.Controls.Add(this.lb_Onderzoek);
             this.Controls.Add(this.lb_Concepting);
@@ -253,7 +241,6 @@
         private System.Windows.Forms.Label lb_Concepting;
         private System.Windows.Forms.Label lb_Onderzoek;
         private System.Windows.Forms.Button btn_AddFeedback;
-        private System.Windows.Forms.Button button1;
     }
 }
 

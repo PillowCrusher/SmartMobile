@@ -1,0 +1,11 @@
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Release\SMProofOfConcept.exe.config
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Release\SMProofOfConcept.exe
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Release\SMProofOfConcept.pdb
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.AddFeedbackForm.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.Form1.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.Properties.Resources.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.csproj.GenerateResource.Cache
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.exe
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Release\SMProofOfConcept.pdb

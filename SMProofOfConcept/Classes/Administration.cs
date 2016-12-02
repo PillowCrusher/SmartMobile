@@ -20,7 +20,7 @@ namespace SMProofOfConcept
 
         public string getAvarage()
         {
-            return ratingLogic.getAverage().ToString();
+            return ratingLogic.getAverage().ToString("0.0");
         }
 
         /**
@@ -29,7 +29,7 @@ namespace SMProofOfConcept
          */
         public string getRatingCategory(CategoryType category)
         {
-          return ratingLogic.getRating(category).ToString();        
+            return ratingLogic.getRating(category).ToString("0.0");        
         }
 
         /**

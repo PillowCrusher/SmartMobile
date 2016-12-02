@@ -34,6 +34,12 @@ namespace SMProofOfConcept
             lb_Samenwerking.Text = administration.getRatingCategory(CategoryType.Samenwerking);
             lb_Average.Text = administration.getAvarage();
         }
+
+        private void btn_AddFeedback_Click(object sender, EventArgs e)
+        {
+            AddFeedbackForm afForm = new AddFeedbackForm();
+            afForm.Show();
+        }
     }
 }
 

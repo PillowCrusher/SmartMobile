@@ -28,6 +28,8 @@ namespace SMProofOfConcept.Classes
            
         public double getRating(CategoryType category)
         {
+            if (ratingList.Count == 0) return 0;
+
             double avgRating = 0;
             List<Rating> avgRatings = new List<Rating>();
             foreach (Rating rating in ratingList)
@@ -37,19 +39,22 @@ namespace SMProofOfConcept.Classes
                     avgRatings.Add(rating);
                 }
             }
+
+            if (avgRatings.Count == 0) return 0;
+
             foreach (Rating tempRating in avgRatings)
             {
                 avgRating += tempRating.rating;
             }
-            if (avgRatings.Count != 0)
-            {
-                return avgRating/avgRatings.Count;
-            }
-            return 0;
+
+            return avgRating/avgRatings.Count;
+
         }
 
         public double getAverage()
         {
+            if (ratingList.Count == 0) return 0;
+
             double ratingAvg = 0;
             foreach (Rating rating in ratingList)
             {

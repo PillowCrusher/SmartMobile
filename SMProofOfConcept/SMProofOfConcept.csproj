@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddFeedbackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFeedbackForm.Designer.cs">
+      <DependentUpon>AddFeedbackForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Administration.cs" />
     <Compile Include="Classes\CategoryType.cs" />
     <Compile Include="Classes\DatabaseConnection.cs" />
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddFeedbackForm.resx">
+      <DependentUpon>AddFeedbackForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

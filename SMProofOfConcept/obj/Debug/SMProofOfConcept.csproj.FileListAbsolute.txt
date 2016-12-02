@@ -1,1 +1,8 @@
 C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.exe.config
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.csprojResolveAssemblyReference.cache
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.Properties.Resources.resources
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.csproj.GenerateResource.Cache
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.exe
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\bin\Debug\SMProofOfConcept.pdb
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.exe
+C:\Users\Jeroe\Documents\GitHub\SmartMobile\SmartMobile\SMProofOfConcept\obj\Debug\SMProofOfConcept.pdb

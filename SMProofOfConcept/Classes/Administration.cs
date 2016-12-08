@@ -9,7 +9,6 @@ namespace SMProofOfConcept
 {
     public class Administration
     {
-        private string naam;
         private RatingLogic ratingLogic;
         private DatabaseConnection dbCon;
         public Administration()
@@ -33,7 +32,7 @@ namespace SMProofOfConcept
             ratingLogic.refreshRatingsList(dbCon.sendQuery("SELECT * FROM SMRatings WHERE Name = '" + naam + "'"));
         }
 
-        public void sendRatingsDatabase(List<Rating> ratings, string naam)
+        public void sendRatingsDatabase(List<Rating> ratings)
         {
             int countdown = ratings.Count;
             //INSERT INTO SMRatings (RatingId, Name, Rating, Category, DateTime) VALUES (NULL, 'Ricky', '8', 'Concepting', '4-12-2016')
@@ -43,12 +42,12 @@ namespace SMProofOfConcept
                 countdown--;
                 if (countdown == 0)
                 {
-                    query += "NULL, '" + naam + "', '" + rating.rating + "', '" + rating.category + "', '" +
+                    query += "NULL, '" + rating.name + "', '" + rating.rating + "', '" + rating.category + "', '" +
                         DateTime.Now + "')";
                 }
                 else
                 {
-                    query += "NULL, '" + naam + "', '" + rating.rating+ "', '" + rating.category + "', '" +
+                    query += "NULL, '" + rating.name + "', '" + rating.rating+ "', '" + rating.category + "', '" +
                         DateTime.Now + "'), (";
                 }
                
